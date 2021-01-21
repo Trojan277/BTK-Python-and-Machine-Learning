@@ -62,7 +62,7 @@ print(cm)
 
 
 from sklearn.svm import SVC
-svc = SVC(kernel='rbf')
+svc = SVC(kernel='poly')
 svc.fit(X_train,y_train)
 
 y_pred = svc.predict(X_test)
