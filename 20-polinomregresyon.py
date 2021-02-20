@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,13 +50,6 @@ print(lin_reg.predict([[6.6]]))
 
 print(lin_reg2.predict(poly_reg.fit_transform([[6.6]])))
 print(lin_reg2.predict(poly_reg.fit_transform([[11]])))
-
-
-
-
-
-
-
 
 
 
