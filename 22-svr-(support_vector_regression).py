@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -83,12 +76,4 @@ plt.plot(x_olcekli,svr_reg.predict(x_olcekli),color='blue')
 
 print(svr_reg.predict([[11]]))
 print(svr_reg.predict([[6.6]]))
-
-
-
-
-
-
-
-
 
