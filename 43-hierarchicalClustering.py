@@ -5,8 +5,6 @@ Created on Fri Jul 10 16:16:03 2020
 @author: sadievrenseker
 """
 
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -58,19 +56,4 @@ plt.show()
 import scipy.cluster.hierarchy as sch
 dendrogram = sch.dendrogram(sch.linkage(X, method='ward'))
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
