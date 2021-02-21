@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -96,24 +89,5 @@ plt.plot(x,r_dt.predict(Z),color='green')
 plt.plot(x,r_dt.predict(K),color='yellow')
 print(r_dt.predict([[11]]))
 print(r_dt.predict([[6.6]]))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
