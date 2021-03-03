@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
-#1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -42,18 +34,3 @@ logr.fit(X_train,y_train)
 y_pred = logr.predict(X_test)
 print(y_pred)
 print(y_test)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
