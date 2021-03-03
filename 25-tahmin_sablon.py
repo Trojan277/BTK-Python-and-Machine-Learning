@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
-#1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -148,17 +140,4 @@ print(r2_score(Y, r_dt.predict(X)))
 
 print('Random Forest R2 degeri')
 print(r2_score(Y, rf_reg.predict(X)))
-
-
-
-
-
-
-
-
-
-
-
-
-
 
