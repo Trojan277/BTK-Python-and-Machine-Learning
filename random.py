@@ -24,7 +24,9 @@ for n in range(0,N):
     odul = veriler.values[n,ad] # verilerdeki n. satır = 1 ise odul 1
     toplam = toplam + odul
     
-    
+print('Toplam Odul:')
+print(toplam)
+
 plt.hist(secilenler)
 plt.show()
 
