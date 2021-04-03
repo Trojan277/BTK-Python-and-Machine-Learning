@@ -33,7 +33,7 @@ import random
 #UCB
 N = 10000 # 10.000 tıklama
 d = 10  # toplam 10 ilan var
-#Ri(
+#Ri(n)
 #Ni(n)
 toplam = 0 # toplam odul
 secilenler = []
