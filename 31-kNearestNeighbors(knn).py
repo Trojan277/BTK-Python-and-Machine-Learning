@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -59,16 +52,3 @@ y_pred = knn.predict(X_test)
 
 cm = confusion_matrix(y_test,y_pred)
 print(cm)
-
-
-
-
-
-
-
-
-
-
-
-
-
