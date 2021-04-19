@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 10 16:16:03 2020
-
-@author: sadievrenseker
-"""
-
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -106,10 +98,4 @@ cm = confusion_matrix(y_test,y_pred)
 print('RFC')
 print(cm)
 print(y_pred)
-
-
-
-
-
-
 
