@@ -87,13 +87,3 @@ y_pred = dtc.predict(X_test)
 cm = confusion_matrix(y_test,y_pred)
 print('DTC')
 print(cm)
-
-
-
-
-
-
-
-
-
-
