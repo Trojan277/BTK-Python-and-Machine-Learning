@@ -9,7 +9,8 @@ Created on Fri Jun 15 11:00:54 2018
 import numpy as np
 import pandas as pd
 
-yorumlar = pd.read_csv(r'D:\users\kaan_\btk not\bolum23\52-Restaurant_Reviews.csv', error_bad_lines=False)             
+yorumlar = pd.read_csv('Restaurant_Reviews.csv', error_bad_lines=False)     
+yorumlar = yorumlar.fillna(1)
 
 import re
 import nltk
@@ -33,12 +34,12 @@ for i in range(716):
 #Feautre Extraction ( Öznitelik Çıkarımı)
 #Bag of Words (BOW)
 from sklearn.feature_extraction.text import CountVectorizer
-cv = CountVectorizer(max_features = 716)
+cv = CountVectorizer(max_features = 2000)
 X = cv.fit_transform(derlem).toarray() # bağımsız değişken
 y = yorumlar.iloc[:,1].values # bağımlı değişken
  
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20, random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
 
 from sklearn.naive_bayes import GaussianNB
 gnb = GaussianNB()
@@ -49,22 +50,4 @@ y_pred = gnb.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
 print(cm)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
