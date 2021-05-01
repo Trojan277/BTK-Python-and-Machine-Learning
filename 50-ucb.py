@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri May 18 19:03:45 2018
-
-@author: sadievrenseker
-"""
 
 # Random Selection (Rastgele Secim)
 import numpy as np
