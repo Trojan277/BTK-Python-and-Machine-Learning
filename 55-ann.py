@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,7 +5,7 @@ import pandas as pd
 
 #2.veri onisleme
 #2.1.veri yukleme
-veriler = pd.read_csv(r'D:\users\kaan_\btk not\bolum24\54-Churn_Modelling.csv')
+veriler = pd.read_csv('Churn_Modelling.csv')
 #pd.read_csv("veriler.csv")
 #test
 print(veriler)
@@ -21,7 +14,6 @@ print(veriler)
 
 X = veriler.iloc[:,3:13].values
 Y = veriler.iloc[:,13].values
-
 
 
 #encoder: Kategorik -> Numeric
@@ -57,7 +49,6 @@ X_train = sc.fit_transform(x_train)
 X_test = sc.fit_transform(x_test)
 
 
-
 # Yapay Sinir Ağı
 import keras
 
@@ -80,22 +71,3 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
 print(cm)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
