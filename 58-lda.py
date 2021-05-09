@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jul  8 10:03:40 2018
-
-@author: sadievrenseker
-"""
-
 #1. kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -82,16 +74,3 @@ y_pred_lda = classifier_lda.predict(X_test_lda)
 print('LDA / Original')
 cm4 = confusion_matrix(y_pred,y_pred_lda)
 print(cm4)
-
-
-
-
-
-
-
-
-
-
-
-
-
