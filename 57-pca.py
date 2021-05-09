@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jul  8 10:03:40 2018
-
-@author: sadievrenseker
-"""
-
 #1. kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,17 +53,3 @@ print(cm2, '\n')
 print('no-PCA / PCA')
 cm3 = confusion_matrix(y_pred,y_pred2)
 print(cm3, '\n')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
