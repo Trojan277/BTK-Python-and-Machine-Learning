@@ -47,4 +47,8 @@ basari = cross_val_score(estimator = classifier, X=X_train, y=y_train , cv = 4)
 print('Accuracy: ')
 print(basari.mean(), '\n')
 print('Standard Deviation: ')
-print(basari.std())
+print(basari.std(), '\n')
+
+from sklearn.metrics import accuracy_score
+print('Sklearn Accuracy:')
+print(accuracy_score(y_test, y_pred))
