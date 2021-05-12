@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 12 17:38:50 2021
-
-@author: kaan_
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  6 18:50:13 2020
-
-@author: sadievrenseker
-"""
-
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
