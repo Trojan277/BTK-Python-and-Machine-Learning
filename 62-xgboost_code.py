@@ -1,3 +1,4 @@
+'''
 #1.kutuphaneler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,6 +69,7 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
 print(cm)
+'''
 
 #XGBoost
 from xgboost import XGBClassifier
