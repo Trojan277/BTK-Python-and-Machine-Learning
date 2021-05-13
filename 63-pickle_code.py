@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 13 19:02:23 2021
-
-@author: kaan_
-"""
-
 import pandas as pd
 
 url = 'http://bilkav.com/satislar.csv'
